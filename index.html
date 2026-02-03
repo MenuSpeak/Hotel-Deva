@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,17 +93,6 @@
                 gap: 5px;
             }
         }
-
-
-
-
-
-
-
-
-
-
-
 
         :root {
             --bg: #0b0b0d;
@@ -1154,26 +1142,16 @@
                     </div>
 
                     <div class="tabs-scroll">
-
-<button class="tab active" data-cat="all">All / सर्व</button>
-
-<button class="tab" data-cat="व्हेज थाळी">Veg Thali / व्हेज थाळी</button>
-
-<button class="tab" data-cat="नॉनव्हेज">Non-Veg Main Course / नॉन-व्हेज डिश</button>
-
-<button class="tab" data-cat="इंडियन डिश">Veg Main Course / व्हेज डिश</button>
-
-<button class="tab" data-cat="स्पेशल डिश">Special Dishes / रानमळा स्पेशल</button>
-
-<button class="tab" data-cat="स्पेशल हंडी">Special Handi / स्पेशल हंडी</button>
-
-<button class="tab" data-cat="स्नॅक्स फ्राय">Snacks / स्नॅक्स फ्राय</button>
-
-<button class="tab" data-cat="राईस">Rice / राईस</button>
-
-<button class="tab" data-cat="रोटी - तंदुर">Bread / रोटी - तंदुर</button>
-
-<button class="tab" data-cat="कोल्ड्रिंक">Drinks / कोल्ड्रिंक आणि इतर</button>
+                        <button class="tab active" data-cat="all">All / सर्व</button>
+                        <button class="tab" data-cat="व्हेज थाळी">Veg Thali / व्हेज थाळी</button>
+                        <button class="tab" data-cat="नॉनव्हेज">Non-Veg Main Course / नॉन-व्हेज डिश</button>
+                        <button class="tab" data-cat="इंडियन डिश">Veg Main Course / व्हेज डिश</button>
+                        <button class="tab" data-cat="स्पेशल डिश">Special Dishes / रानमळा स्पेशल</button>
+                        <button class="tab" data-cat="स्पेशल हंडी">Special Handi / स्पेशल हंडी</button>
+                        <button class="tab" data-cat="स्नॅक्स फ्राय">Snacks / स्नॅक्स फ्राय</button>
+                        <button class="tab" data-cat="राईस">Rice / राईस</button>
+                        <button class="tab" data-cat="रोटी - तंदुर">Bread / रोटी - तंदुर</button>
+                        <button class="tab" data-cat="कोल्ड्रिंक">Drinks / कोल्ड्रिंक आणि इतर</button>
                     </div>
                 </div>
             </div>
@@ -1317,152 +1295,133 @@
 
     <script>
         // Menu Data
-        const data =[
+        const data = [
+            {"id": 1, "cat": "रोटी - तंदुर", "name": "रोटी साधी - Roti Sadhi", "price": "RS 12", "desc": "Plain Roti", "tags": ["Veg"], "img": "img/roti_sadhi.jpeg"},
+            {"id": 2, "cat": "रोटी - तंदुर", "name": "बटर रोटी - Butter Roti", "price": "RS 15", "desc": "Butter Roti", "tags": ["Veg"], "img": "img/butter_roti.jpeg"},
+            {"id": 3, "cat": "रोटी - तंदुर", "name": "चपाती - Chapati", "price": "RS 10", "desc": "Plain Chapati", "tags": ["Veg"], "img": "img/chapati.jpeg"},
+            {"id": 4, "cat": "रोटी - तंदुर", "name": "बटर चपाती - Butter Chapati", "price": "RS 15", "desc": "Butter Chapati", "tags": ["Veg"], "img": "img/butter_chapati.jpeg"},
+            {"id": 5, "cat": "रोटी - तंदुर", "name": "बाजरी भाकरी - Bajri Bhakri", "price": "RS 20", "desc": "Bajra Bhakri", "tags": ["Veg"], "img": "img/bajri_bhakri.jpeg"},
+            {"id": 6, "cat": "रोटी - तंदुर", "name": "ज्वारी भाकरी - Jwari Bhakri", "price": "RS 25", "desc": "Jowar Bhakri", "tags": ["Veg"], "img": "img/jwari_bhakri.jpeg"},
+            {"id": 7, "cat": "रोटी - तंदुर", "name": "तंदुरी नान - Tanduri Naan", "price": "RS 30", "desc": "Tandoori Naan", "tags": ["Veg"], "img": "img/tandoori_naan.jpeg"},
+            {"id": 8, "cat": "रोटी - तंदुर", "name": "बटर नान - Butter Naan", "price": "RS 35", "desc": "Butter Naan", "tags": ["Veg"], "img": "img/butter_naan.jpeg"},
+            {"id": 9, "cat": "रोटी - तंदुर", "name": "तवा नान - Tawa Naan", "price": "RS 25", "desc": "Tawa Naan", "tags": ["Veg"], "img": "img/tawa_naan.jpeg"},
 
-{"id": 1, "cat": "रोटी - तंदुर", "name": "रोटी साधी - Roti Sadhi", "price": "RS 12", "desc": "Plain Roti", "tags": ["Veg"], "img": "img/roti_sadhi.jpeg"},
-{"id": 2, "cat": "रोटी - तंदुर", "name": "बटर रोटी - Butter Roti", "price": "RS 15", "desc": "Butter Roti", "tags": ["Veg"], "img": "img/butter_roti.jpeg"},
-{"id": 3, "cat": "रोटी - तंदुर", "name": "चपाती - Chapati", "price": "RS 10", "desc": "Plain Chapati", "tags": ["Veg"], "img": "img/chapati.jpeg"},
-{"id": 4, "cat": "रोटी - तंदुर", "name": "बटर चपाती - Butter Chapati", "price": "RS 15", "desc": "Butter Chapati", "tags": ["Veg"], "img": "img/butter_chapati.jpeg"},
-{"id": 5, "cat": "रोटी - तंदुर", "name": "बाजरी भाकरी - Bajri Bhakri", "price": "RS 20", "desc": "Bajra Bhakri", "tags": ["Veg"], "img": "img/bajri_bhakri.jpeg"},
-{"id": 6, "cat": "रोटी - तंदुर", "name": "ज्वारी भाकरी - Jwari Bhakri", "price": "RS 25", "desc": "Jowar Bhakri", "tags": ["Veg"], "img": "img/jwari_bhakri.jpeg"},
-{"id": 7, "cat": "रोटी - तंदुर", "name": "तंदुरी नान - Tanduri Naan", "price": "RS 30", "desc": "Tandoori Naan", "tags": ["Veg"], "img": "img/tandoori_naan.jpeg"},
-{"id": 8, "cat": "रोटी - तंदुर", "name": "बटर नान - Butter Naan", "price": "RS 35", "desc": "Butter Naan", "tags": ["Veg"], "img": "img/butter_naan.jpeg"},
-{"id": 9, "cat": "रोटी - तंदुर", "name": "तवा नान - Tawa Naan", "price": "RS 25", "desc": "Tawa Naan", "tags": ["Veg"], "img": "img/tawa_naan.jpeg"},
+            {"id": 10, "cat": "राईस", "name": "प्लेन राईस साधा - Plain Rice", "price": "RS 90/60", "desc": "Plain Rice Sadha", "tags": ["Veg"], "img": "img/plain_rice.jpeg"},
+            {"id": 11, "cat": "राईस", "name": "जिरा राईस - Jeera Rice", "price": "RS 120/60", "desc": "Jeera Rice", "tags": ["Veg"], "img": "img/jeera_rice.jpeg"},
+            {"id": 12, "cat": "राईस", "name": "मसाला राईस - Masala Rice", "price": "RS 120/60", "desc": "Masala Rice", "tags": ["Veg"], "img": "img/masala_rice.jpeg"},
+            {"id": 13, "cat": "राईस", "name": "दाल खिचडी - Dal Khichdi", "price": "RS 140/70", "desc": "Dal Khichdi", "tags": ["Veg"], "img": "img/dal_khichdi.jpeg"},
+            {"id": 14, "cat": "राईस", "name": "व्हेज बिर्याणी - Veg Biryani", "price": "RS 150", "desc": "Veg Biryani", "tags": ["Veg"], "img": "img/veg_biryani.jpeg"},
+            {"id": 15, "cat": "राईस", "name": "व्हेज पुलाव - Veg Pulao", "price": "RS 140", "desc": "Veg Pulao", "tags": ["Veg"], "img": "img/veg_pulao.jpeg"},
+            {"id": 16, "cat": "राईस", "name": "लेमन राईस - Lemon Rice", "price": "RS 130", "desc": "Lemon Rice", "tags": ["Veg"], "img": "img/lemon_rice.jpeg"},
+            {"id": 17, "cat": "राईस", "name": "बटर दाल खिचडी - Butter Dal Khichdi", "price": "RS 150", "desc": "Butter Dal Khichdi", "tags": ["Veg"], "img": "img/butter_dal_khichdi.jpeg"},
 
+            {"id": 18, "cat": "कोल्ड्रिंक", "name": "बिसलरी - Bisleri", "price": "RS 20", "desc": "Mineral Water", "tags": ["Veg"], "img": "img/bisleri.jpeg"},
+            {"id": 19, "cat": "कोल्ड्रिंक", "name": "दही प्लेट - Dahi Plate", "price": "RS 30", "desc": "Curd Plate", "tags": ["Veg"], "img": "img/dahi_plate.jpeg"},
+            {"id": 20, "cat": "कोल्ड्रिंक", "name": "लस्सी - Lassi", "price": "RS 30", "desc": "Sweet Lassi", "tags": ["Veg"], "img": "img/lassi.jpeg"},
+            {"id": 21, "cat": "कोल्ड्रिंक", "name": "थम्स अप - Thums Up", "price": "RS 30/60", "desc": "Thums Up Cold Drink", "tags": ["Veg"], "img": "img/thums_up.jpeg"},
+            {"id": 22, "cat": "कोल्ड्रिंक", "name": "माझा - Maaza", "price": "RS 30/60", "desc": "Maaza Mango Drink", "tags": ["Veg"], "img": "img/maaza.jpeg"},
+            {"id": 23, "cat": "कोल्ड्रिंक", "name": "स्प्राइट - Sprite", "price": "RS 25/50", "desc": "Sprite Cold Drink", "tags": ["Veg"], "img": "img/sprite.jpeg"},
+            {"id": 24, "cat": "कोल्ड्रिंक", "name": "कोका कोला - Coca Cola", "price": "RS 50", "desc": "Coca Cola", "tags": ["Veg"], "img": "img/coca_cola.jpeg"},
+            {"id": 25, "cat": "कोल्ड्रिंक", "name": "जिरा - Jeera", "price": "RS 20", "desc": "Jeera Masala Drink", "tags": ["Veg"], "img": "img/jeera_soda.jpeg"},
 
-{"id": 10, "cat": "राईस", "name": "प्लेन राईस साधा - Plain Rice", "price": "RS 90/60", "desc": "Plain Rice Sadha", "tags": ["Veg"], "img": "img/plain_rice.jpeg"},
-{"id": 11, "cat": "राईस", "name": "जिरा राईस - Jeera Rice", "price": "RS 120/60", "desc": "Jeera Rice", "tags": ["Veg"], "img": "img/jeera_rice.jpeg"},
-{"id": 12, "cat": "राईस", "name": "मसाला राईस - Masala Rice", "price": "RS 120/60", "desc": "Masala Rice", "tags": ["Veg"], "img": "img/masala_rice.jpeg"},
-{"id": 13, "cat": "राईस", "name": "दाल खिचडी - Dal Khichdi", "price": "RS 140/70", "desc": "Dal Khichdi", "tags": ["Veg"], "img": "img/dal_khichdi.jpeg"},
-{"id": 14, "cat": "राईस", "name": "व्हेज बिर्याणी - Veg Biryani", "price": "RS 150", "desc": "Veg Biryani", "tags": ["Veg"], "img": "img/veg_biryani.jpeg"},
-{"id": 15, "cat": "राईस", "name": "व्हेज पुलाव - Veg Pulao", "price": "RS 140", "desc": "Veg Pulao", "tags": ["Veg"], "img": "img/veg_pulao.jpeg"},
-{"id": 16, "cat": "राईस", "name": "लेमन राईस - Lemon Rice", "price": "RS 130", "desc": "Lemon Rice", "tags": ["Veg"], "img": "img/lemon_rice.jpeg"},
-{"id": 17, "cat": "राईस", "name": "बटर दाल खिचडी - Butter Dal Khichdi", "price": "RS 150", "desc": "Butter Dal Khichdi", "tags": ["Veg"], "img": "img/butter_dal_khichdi.jpeg"},
+            {"id": 26, "cat": "स्नॅक्स फ्राय", "name": "रोस्ट पापड - Roast Papad", "price": "RS 20", "desc": "Roast Papad", "tags": ["Veg"], "img": "img/roast_papad.jpeg"},
+            {"id": 27, "cat": "स्नॅक्स फ्राय", "name": "फ्राय पापड - Fry Papad", "price": "RS 30", "desc": "Fry Papad", "tags": ["Veg"], "img": "img/fry_papad.jpeg"},
+            {"id": 28, "cat": "स्नॅक्स फ्राय", "name": "मसाला पापड - Masala Papad", "price": "RS 35", "desc": "Masala Papad", "tags": ["Veg"], "img": "img/masala_papad.jpeg"},
+            {"id": 29, "cat": "स्नॅक्स फ्राय", "name": "मटकी फ्राय - Matki Fry", "price": "RS 80", "desc": "Matki Fry", "tags": ["Veg"], "img": "img/matki_fry.jpeg"},
+            {"id": 30, "cat": "स्नॅक्स फ्राय", "name": "लसुन फ्राय - Lasun Fry", "price": "RS 90", "desc": "Garlic Fry", "tags": ["Veg"], "img": "img/lasun_fry.jpeg"},
+            {"id": 31, "cat": "स्नॅक्स फ्राय", "name": "सोयाबीन रोस्ट - Soyabean Roast", "price": "RS 120", "desc": "Soyabean Roast", "tags": ["Veg"], "img": "img/soyabean_roast.jpeg"},
+            {"id": 32, "cat": "स्नॅक्स फ्राय", "name": "काजू फ्राय - Kaju Fry", "price": "RS 180", "desc": "Cashew Fry", "tags": ["Veg"], "img": "img/kaju_fry.jpeg"},
+            {"id": 33, "cat": "स्नॅक्स फ्राय", "name": "चना फ्राय - Chana Fry", "price": "RS 100", "desc": "Chana Fry", "tags": ["Veg"], "img": "img/chana_fry.jpeg"},
+            {"id": 34, "cat": "स्नॅक्स फ्राय", "name": "सोयाबीन फ्राय - Soyabean Fry", "price": "RS 110", "desc": "Soyabean Fry", "tags": ["Veg"], "img": "img/soyabean_fry.jpeg"},
 
-{"id": 18, "cat": "कोल्ड्रिंक", "name": "बिसलरी - Bisleri", "price": "RS 20", "desc": "Mineral Water", "tags": ["Veg"], "img": "img/bisleri.jpeg"},
-{"id": 19, "cat": "कोल्ड्रिंक", "name": "दही प्लेट - Dahi Plate", "price": "RS 30", "desc": "Curd Plate", "tags": ["Veg"], "img": "img/dahi_plate.jpeg"},
-{"id": 20, "cat": "कोल्ड्रिंक", "name": "लस्सी - Lassi", "price": "RS 30", "desc": "Sweet Lassi", "tags": ["Veg"], "img": "img/lassi.jpeg"},
-{"id": 21, "cat": "कोल्ड्रिंक", "name": "थम्स अप - Thums Up", "price": "RS 30/60", "desc": "Thums Up Cold Drink", "tags": ["Veg"], "img": "img/thums_up.jpeg"},
-{"id": 22, "cat": "कोल्ड्रिंक", "name": "माझा - Maaza", "price": "RS 30/60", "desc": "Maaza Mango Drink", "tags": ["Veg"], "img": "img/maaza.jpeg"},
-{"id": 23, "cat": "कोल्ड्रिंक", "name": "स्प्राइट - Sprite", "price": "RS 25/50", "desc": "Sprite Cold Drink", "tags": ["Veg"], "img": "img/sprite.jpeg"},
-{"id": 24, "cat": "कोल्ड्रिंक", "name": "कोका कोला - Coca Cola", "price": "RS 50", "desc": "Coca Cola", "tags": ["Veg"], "img": "img/coca_cola.jpeg"},
-{"id": 25, "cat": "कोल्ड्रिंक", "name": "जिरा - Jeera", "price": "RS 20", "desc": "Jeera Masala Drink", "tags": ["Veg"], "img": "img/jeera_soda.jpeg"},
+            {"id": 35, "cat": "स्पेशल हंडी", "name": "शेवगा हंडी - Shevga Handi", "price": "RS 500/250", "desc": "Shevga Handi", "tags": ["Veg"], "img": "img/shevga_handi.jpeg"},
+            {"id": 36, "cat": "स्पेशल हंडी", "name": "पालक पनीर - Palak Paneer", "price": "RS 550/300", "desc": "Palak Paneer", "tags": ["Veg"], "img": "img/palak_paneer.jpeg"},
+            {"id": 37, "cat": "स्पेशल हंडी", "name": "पनीर हंडी - Paneer Handi", "price": "RS 600/300", "desc": "Paneer Handi", "tags": ["Veg"], "img": "img/paneer_handi.jpeg"},
+            {"id": 38, "cat": "स्पेशल हंडी", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 600/300", "desc": "Mix Veg", "tags": ["Veg"], "img": "img/mix_veg.jpeg"},
+            {"id": 39, "cat": "स्पेशल हंडी", "name": "काजू पनीर - Kaju Paneer", "price": "RS 700/350", "desc": "Kaju Paneer", "tags": ["Veg"], "img": "img/kaju_paneer.jpeg"},
+            {"id": 40, "cat": "स्पेशल हंडी", "name": "बैगण हंडी - Baigan Handi", "price": "RS 600/300", "desc": "Baigan Handi", "tags": ["Veg"], "img": "img/baigan_handi.jpeg"},
+            {"id": 41, "cat": "स्पेशल हंडी", "name": "दाल फ्राय हंडी - Dal Fry Handi", "price": "RS 500/250", "desc": "Dal Fry Handi", "tags": ["Veg"], "img": "img/dal_fry_handi.jpeg"},
+            {"id": 42, "cat": "स्पेशल हंडी", "name": "दाल तडका हंडी - Dal Tadka Handi", "price": "RS 550/300", "desc": "Dal Tadka Handi", "tags": ["Veg"], "img": "img/dal_tadka_handi.jpeg"},
 
-{"id": 26, "cat": "स्नॅक्स फ्राय", "name": "रोस्ट पापड - Roast Papad", "price": "RS 20", "desc": "Roast Papad", "tags": ["Veg"], "img": "img/roast_papad.jpeg"},
-{"id": 27, "cat": "स्नॅक्स फ्राय", "name": "फ्राय पापड - Fry Papad", "price": "RS 30", "desc": "Fry Papad", "tags": ["Veg"], "img": "img/fry_papad.jpeg"},
-{"id": 28, "cat": "स्नॅक्स फ्राय", "name": "मसाला पापड - Masala Papad", "price": "RS 35", "desc": "Masala Papad", "tags": ["Veg"], "img": "img/masala_papad.jpeg"},
-{"id": 29, "cat": "स्नॅक्स फ्राय", "name": "मटकी फ्राय - Matki Fry", "price": "RS 80", "desc": "Matki Fry", "tags": ["Veg"], "img": "img/matki_fry.jpeg"},
-{"id": 30, "cat": "स्नॅक्स फ्राय", "name": "लसुन फ्राय - Lasun Fry", "price": "RS 90", "desc": "Garlic Fry", "tags": ["Veg"], "img": "img/lasun_fry.jpeg"},
-{"id": 31, "cat": "स्नॅक्स फ्राय", "name": "सोयाबीन रोस्ट - Soyabean Roast", "price": "RS 120", "desc": "Soyabean Roast", "tags": ["Veg"], "img": "img/soyabean_roast.jpeg"},
-{"id": 32, "cat": "स्नॅक्स फ्राय", "name": "काजू फ्राय - Kaju Fry", "price": "RS 180", "desc": "Cashew Fry", "tags": ["Veg"], "img": "img/kaju_fry.jpeg"},
-{"id": 33, "cat": "स्नॅक्स फ्राय", "name": "चना फ्राय - Chana Fry", "price": "RS 100", "desc": "Chana Fry", "tags": ["Veg"], "img": "img/chana_fry.jpeg"},
-{"id": 34, "cat": "स्नॅक्स फ्राय", "name": "सोयाबीन फ्राय - Soyabean Fry", "price": "RS 110", "desc": "Soyabean Fry", "tags": ["Veg"], "img": "img/soyabean_fry.jpeg"},
+            {"id": 43, "cat": "स्पेशल डिश", "name": "पनीर मसाला - Paneer Masala", "price": "RS 150", "desc": "Paneer Masala", "tags": ["Veg"], "img": "img/paneer_masala.jpeg"},
+            {"id": 44, "cat": "स्पेशल डिश", "name": "पनीर टिक्का मसाला - Paneer Tikka Masala", "price": "RS 170", "desc": "Paneer Tikka Masala", "tags": ["Veg"], "img": "img/paneer_tikka_masala.jpeg"},
+            {"id": 45, "cat": "स्पेशल डिश", "name": "पनीर कढई - Paneer Kadai", "price": "RS 170", "desc": "Paneer Kadai", "tags": ["Veg"], "img": "img/paneer_kadai.jpeg"},
+            {"id": 46, "cat": "स्पेशल डिश", "name": "व्हेज अंगारा - Veg Angara", "price": "RS 200", "desc": "Veg Angara", "tags": ["Veg"], "img": "img/veg_angara.jpeg"},
+            {"id": 47, "cat": "स्पेशल डिश", "name": "पनीर अंगारा - Paneer Angara", "price": "RS 250", "desc": "Paneer Angara", "tags": ["Veg"], "img": "img/paneer_angara.jpeg"},
+            {"id": 48, "cat": "स्पेशल डिश", "name": "पनीर भुर्जी - Paneer Bhurji", "price": "RS 200", "desc": "Paneer Bhurji", "tags": ["Veg"], "img": "img/paneer_bhurji.jpeg"},
+            {"id": 49, "cat": "स्पेशल डिश", "name": "व्हेज कढई - Veg Kadai", "price": "RS 180", "desc": "Veg Kadai", "tags": ["Veg"], "img": "img/veg_kadai.jpeg"},
+            {"id": 50, "cat": "स्पेशल डिश", "name": "व्हेज कोल्हापुरी - Veg Kolhapuri", "price": "RS 150", "desc": "Veg Kolhapuri", "tags": ["Veg"], "img": "img/veg_kolhapuri.jpeg"},
+            {"id": 51, "cat": "स्पेशल डिश", "name": "शाही पनीर - Shahi Paneer", "price": "RS 160", "desc": "Shahi Paneer", "tags": ["Veg"], "img": "img/shahi_paneer.jpeg"},
+            {"id": 52, "cat": "स्पेशल डिश", "name": "पनीर बटर मसाला - Paneer Butter Masala", "price": "RS 160", "desc": "Paneer Butter Masala", "tags": ["Veg"], "img": "img/paneer_butter_masala.jpeg"},
+            {"id": 53, "cat": "स्पेशल डिश", "name": "व्हेज मराठा - Veg Maratha", "price": "RS 160", "desc": "Veg Maratha", "tags": ["Veg"], "img": "img/veg_maratha.jpeg"},
+            {"id": 54, "cat": "स्पेशल डिश", "name": "पालक पनीर - Palak Paneer", "price": "RS 160", "desc": "Palak Paneer", "tags": ["Veg"], "img": "img/palak_paneer_special.jpeg"},
+            {"id": 55, "cat": "स्पेशल डिश", "name": "पालक पनीर तडका - Palak Paneer Tadka", "price": "RS 170", "desc": "Palak Paneer Tadka", "tags": ["Veg"], "img": "img/palak_paneer_tadka.jpeg"},
+            {"id": 56, "cat": "स्पेशल डिश", "name": "काजू पनीर मिक्स - Kaju Paneer Mix", "price": "RS 170", "desc": "Kaju Paneer Mix", "tags": ["Veg"], "img": "img/kaju_paneer_mix.jpeg"},
+            {"id": 57, "cat": "स्पेशल डिश", "name": "काजू करी - Kaju Curry", "price": "RS 170", "desc": "Kaju Curry", "tags": ["Veg"], "img": "img/kaju_curry.jpeg"},
+            {"id": 58, "cat": "स्पेशल डिश", "name": "काजू मसाला - Kaju Masala", "price": "RS 180", "desc": "Kaju Masala", "tags": ["Veg"], "img": "img/kaju_masala.jpeg"},
+            {"id": 59, "cat": "स्पेशल डिश", "name": "व्हेज कोफ्ता - Veg Kofta", "price": "RS 170", "desc": "Veg Kofta", "tags": ["Veg"], "img": "img/veg_kofta.jpeg"},
+            {"id": 60, "cat": "स्पेशल डिश", "name": "मलाई कोफ्ता - Malai Kofta", "price": "RS 190", "desc": "Malai Kofta", "tags": ["Veg"], "img": "img/malai_kofta.jpeg"},
+            {"id": 61, "cat": "स्पेशल डिश", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 150", "desc": "Mix Veg", "tags": ["Veg"], "img": "img/mix_veg_special.jpeg"},
+            {"id": 62, "cat": "स्पेशल डिश", "name": "मिक्स व्हेज मसाला - Mix Veg Masala", "price": "RS 160", "desc": "Mix Veg Masala", "tags": ["Veg"], "img": "img/mix_veg_masala.jpeg"},
+            {"id": 89, "cat": "स्पेशल डिश", "name": "मलाई मेथी - Malai Methi", "price": "RS 120", "desc": "Malai Methi", "tags": ["Veg"], "img": "img/malai_methi.jpeg"},
+            {"id": 90, "cat": "स्पेशल डिश", "name": "सिमला मसाला - Simla Masala", "price": "RS 130", "desc": "Capsicum Masala", "tags": ["Veg"], "img": "img/simla_masala.jpeg"},
+            {"id": 91, "cat": "स्पेशल डिश", "name": "सिमला करी - Simla Curry", "price": "RS 140", "desc": "Capsicum Curry", "tags": ["Veg"], "img": "img/simla_curry.jpeg"},
+            {"id": 92, "cat": "स्पेशल डिश", "name": "शेवभाजी दुधात - Shevbhaji Dudhat", "price": "RS 130", "desc": "Shevbhaji in Milk", "tags": ["Veg"], "img": "img/shevbhaji_dudhat.jpeg"},
+            {"id": 93, "cat": "स्पेशल डिश", "name": "जिरा आलू - Jeera Alu", "price": "RS 120", "desc": "Jeera Potato", "tags": ["Veg"], "img": "img/jeera_alu.jpeg"},
+            {"id": 94, "cat": "स्पेशल डिश", "name": "दाल मेथी - Dal Methi", "price": "RS 120", "desc": "Dal with Methi", "tags": ["Veg"], "img": "img/dal_methi.jpeg"},
+            {"id": 95, "cat": "स्पेशल डिश", "name": "पनीर कोफ्ता - Paneer Kofta", "price": "RS 150", "desc": "Paneer Kofta", "tags": ["Veg"], "img": "img/paneer_kofta.jpeg"},
+            {"id": 96, "cat": "स्पेशल डिश", "name": "व्हेज कोफ्ता - Veg Kofta", "price": "RS 160", "desc": "Vegetable Kofta", "tags": ["Veg"], "img": "img/veg_kofta_special.jpeg"},
+            {"id": 97, "cat": "स्पेशल डिश", "name": "व्हेज कोल्हापुरी - Veg Kolhapuri", "price": "RS 160", "desc": "Veg Kolhapuri", "tags": ["Veg"], "img": "img/veg_kolhapuri_11.jpeg"},
 
+            {"id": 98, "cat": "इंडियन डिश", "name": "शेवभाजी - Shevbhaji", "price": "RS 100", "desc": "Shevbhaji", "tags": ["Veg"], "img": "img/shevbhaji.jpeg"},
+            {"id": 99, "cat": "इंडियन डिश", "name": "बेसन तडका - Besan Tadka", "price": "RS 120", "desc": "Besan Tadka", "tags": ["Veg"], "img": "img/besan_tadka.jpeg"},
+            {"id": 100, "cat": "इंडियन डिश", "name": "साधे बेसन - Sadhe Besan", "price": "RS 100", "desc": "Plain Besan", "tags": ["Veg"], "img": "img/sadhe_besan.jpeg"},
+            {"id": 101, "cat": "इंडियन डिश", "name": "गोबी मसाला - Gobi Masala", "price": "RS 110", "desc": "Cauliflower Masala", "tags": ["Veg"], "img": "img/gobi_masala.jpeg"},
+            {"id": 102, "cat": "इंडियन डिश", "name": "दाल फ्राय - Dal Fry", "price": "RS 100", "desc": "Dal Fry", "tags": ["Veg"], "img": "img/dal_fry.jpeg"},
+            {"id": 103, "cat": "इंडियन डिश", "name": "दाल तडका - Dal Tadka", "price": "RS 120", "desc": "Dal Tadka", "tags": ["Veg"], "img": "img/dal_tadka.jpeg"},
+            {"id": 104, "cat": "इंडियन डिश", "name": "जिरा दाल - Jeera Dal", "price": "RS 120", "desc": "Jeera Dal", "tags": ["Veg"], "img": "img/jeera_dal.jpeg"},
+            {"id": 105, "cat": "इंडियन डिश", "name": "चना मसाला - Chana Masala", "price": "RS 120", "desc": "Chana Masala", "tags": ["Veg"], "img": "img/chana_masala.jpeg"},
+            {"id": 106, "cat": "इंडियन डिश", "name": "मटकी मसाला - Matki Masala", "price": "RS 120", "desc": "Matki Masala", "tags": ["Veg"], "img": "img/matki_masala.jpeg"},
+            {"id": 107, "cat": "इंडियन डिश", "name": "भेंडी मसाला - Bhendi Masala", "price": "RS 120", "desc": "Okra Masala", "tags": ["Veg"], "img": "img/bhendi_masala.jpeg"},
+            {"id": 108, "cat": "इंडियन डिश", "name": "भेंडी फ्राय - Bhendi Fry", "price": "RS 100", "desc": "Okra Fry", "tags": ["Veg"], "img": "img/bhendi_fry.jpeg"},
+            {"id": 109, "cat": "इंडियन डिश", "name": "सोयाबीन मसाला - Soyabean Masala", "price": "RS 120", "desc": "Soyabean Masala", "tags": ["Veg"], "img": "img/soyabean_masala.jpeg"},
+            {"id": 110, "cat": "इंडियन डिश", "name": "टमॅटो चटणी - Tomato Chatni", "price": "RS 120", "desc": "Tomato Chutney", "tags": ["Veg"], "img": "img/tomato_chatni.jpeg"},
+            {"id": 111, "cat": "इंडियन डिश", "name": "शेंगदाणा पीस - Shengdana Piece", "price": "RS 120", "desc": "Peanut Dish", "tags": ["Veg"], "img": "img/shengdana_piece.jpeg"},
+            {"id": 112, "cat": "इंडियन डिश", "name": "आलूमटार - Alu Matar", "price": "RS 120", "desc": "Potato Peas Masala", "tags": ["Veg"], "img": "img/alu_matar.jpeg"},
+            {"id": 113, "cat": "इंडियन डिश", "name": "मेथी मसाला - Methi Masala", "price": "RS 130", "desc": "Methi Masala", "tags": ["Veg"], "img": "img/methi_masala.jpeg"},
+            {"id": 114, "cat": "इंडियन डिश", "name": "लसुनी मेथी - Lasuni Methi", "price": "RS 140", "desc": "Garlic Methi", "tags": ["Veg"], "img": "img/lasuni_methi.jpeg"},
+            {"id": 115, "cat": "इंडियन डिश", "name": "आलू गोबी मसाला - Alu Gobi Masala", "price": "RS 130", "desc": "Potato Cauliflower Masala", "tags": ["Veg"], "img": "img/alu_gobi_masala.jpeg"},
+            {"id": 116, "cat": "इंडियन डिश", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 150", "desc": "Mixed Vegetables", "tags": ["Veg"], "img": "img/mix_veg_indian.jpeg"},
+            {"id": 117, "cat": "इंडियन डिश", "name": "शेवगा भाजी - Shevga Bhaji", "price": "RS 140", "desc": "Drumstick Curry", "tags": ["Veg"], "img": "img/shevga_bhaji.jpeg"},
+            {"id": 118, "cat": "इंडियन डिश", "name": "बैगण मसाला - Baigan Masala", "price": "RS 120", "desc": "Eggplant Masala", "tags": ["Veg"], "img": "img/baigan_masala.jpeg"},
+            {"id": 119, "cat": "इंडियन डिश", "name": "बैगण भरता - Baigan Bharta", "price": "RS 100", "desc": "Roasted Eggplant Mash", "tags": ["Veg"], "img": "img/baigan_bharta.jpeg"},
+            {"id": 120, "cat": "इंडियन डिश", "name": "शेवगा करी - Shevga Curry", "price": "RS 120", "desc": "Drumstick Curry", "tags": ["Veg"], "img": "img/shevga_curry.jpeg"},
 
-{"id": 35, "cat": "स्पेशल हंडी", "name": "शेवगा हंडी - Shevga Handi", "price": "RS 500/250", "desc": "Shevga Handi", "tags": ["Veg"], "img": "img/shevga_handi.jpeg"},
-{"id": 36, "cat": "स्पेशल हंडी", "name": "पालक पनीर - Palak Paneer", "price": "RS 550/300", "desc": "Palak Paneer", "tags": ["Veg"], "img": "img/palak_paneer.jpeg"},
-{"id": 37, "cat": "स्पेशल हंडी", "name": "पनीर हंडी - Paneer Handi", "price": "RS 600/300", "desc": "Paneer Handi", "tags": ["Veg"], "img": "img/paneer_handi.jpeg"},
-{"id": 38, "cat": "स्पेशल हंडी", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 600/300", "desc": "Mix Veg", "tags": ["Veg"], "img": "img/mix_veg.jpeg"},
-{"id": 39, "cat": "स्पेशल हंडी", "name": "काजू पनीर - Kaju Paneer", "price": "RS 700/350", "desc": "Kaju Paneer", "tags": ["Veg"], "img": "img/kaju_paneer.jpeg"},
-{"id": 40, "cat": "स्पेशल हंडी", "name": "बैगण हंडी - Baigan Handi", "price": "RS 600/300", "desc": "Baigan Handi", "tags": ["Veg"], "img": "img/baigan_handi.jpeg"},
-{"id": 41, "cat": "स्पेशल हंडी", "name": "दाल फ्राय हंडी - Dal Fry Handi", "price": "RS 500/250", "desc": "Dal Fry Handi", "tags": ["Veg"], "img": "img/dal_fry_handi.jpeg"},
-{"id": 42, "cat": "स्पेशल हंडी", "name": "दाल तडका हंडी - Dal Tadka Handi", "price": "RS 550/300", "desc": "Dal Tadka Handi", "tags": ["Veg"], "img": "img/dal_tadka_handi.jpeg"},
+            {"id": 72, "cat": "नॉनव्हेज", "name": "मटन हंडी फुल - Mutton Handi Full", "price": "RS 900", "desc": "Mutton Handi Full", "tags": ["Non-Veg"], "img": "img/mutton_handi_full.jpeg"},
+            {"id": 73, "cat": "नॉनव्हेज", "name": "मटन हंडी हाफ - Mutton Handi Half", "price": "RS 450", "desc": "Mutton Handi Half", "tags": ["Non-Veg"], "img": "img/mutton_handi_full.jpeg"},
+            {"id": 74, "cat": "नॉनव्हेज", "name": "चिकन हंडी फुल - Chicken Handi Full", "price": "RS 700", "desc": "Chicken Handi Full", "tags": ["Non-Veg"], "img": "img/chicken_handi_full.jpeg"},
+            {"id": 75, "cat": "नॉनव्हेज", "name": "चिकन हंडी हाफ - Chicken Handi Half", "price": "RS 350", "desc": "Chicken Handi Half", "tags": ["Non-Veg"], "img": "img/chicken_handi_full.jpeg"},
+            {"id": 76, "cat": "नॉनव्हेज", "name": "चिकन मसाला - Chicken Masala", "price": "RS 150", "desc": "Chicken Masala", "tags": ["Non-Veg"], "img": "img/chicken_masala.jpeg"},
+            {"id": 77, "cat": "नॉनव्हेज", "name": "चिकन फ्राय - Chicken Fry", "price": "RS 140", "desc": "Chicken Fry", "tags": ["Non-Veg"], "img": "img/chicken_fry.jpeg"},
+            {"id": 78, "cat": "नॉनव्हेज", "name": "चिकन रोस्ट - Chicken Roast", "price": "RS 140", "desc": "Chicken Roast", "tags": ["Non-Veg"], "img": "img/chicken_roast.jpeg"},
+            {"id": 79, "cat": "नॉनव्हेज", "name": "चिकन सूप - Chicken Soup", "price": "RS 180", "desc": "Chicken Soup", "tags": ["Non-Veg"], "img": "img/chicken_soup.jpeg"},
+            {"id": 80, "cat": "नॉनव्हेज", "name": "मटन सूप - Mutton Soup", "price": "RS 200", "desc": "Mutton Soup", "tags": ["Non-Veg"], "img": "img/mutton_soup.jpeg"},
+            {"id": 81, "cat": "नॉनव्हेज", "name": "मटन फ्राय - Mutton Fry", "price": "RS 220", "desc": "Mutton Fry", "tags": ["Non-Veg"], "img": "img/mutton_fry.jpeg"},
+            {"id": 82, "cat": "नॉनव्हेज", "name": "मटन रोस्ट - Mutton Roast", "price": "RS 180", "desc": "Mutton Roast", "tags": ["Non-Veg"], "img": "img/mutton_roast.jpeg"},
+            {"id": 83, "cat": "नॉनव्हेज", "name": "मटन मसाला - Mutton Masala", "price": "RS 200", "desc": "Mutton Masala", "tags": ["Non-Veg"], "img": "img/mutton_masala.jpeg"},
+            {"id": 84, "cat": "नॉनव्हेज", "name": "मच्छी मसाला - Fish Masala", "price": "RS 140", "desc": "Fish Masala", "tags": ["Non-Veg"], "img": "img/fish_masala.jpeg"},
+            {"id": 85, "cat": "नॉनव्हेज", "name": "मच्छी रोस्ट - Fish Roast", "price": "RS 130", "desc": "Fish Roast", "tags": ["Non-Veg"], "img": "img/fish_roast.jpeg"},
+            {"id": 86, "cat": "नॉनव्हेज", "name": "अंडा आमलेट - Egg Omelette", "price": "RS 70", "desc": "Egg Omelette", "tags": ["Non-Veg"], "img": "img/egg_omelette.jpeg"},
+            {"id": 87, "cat": "नॉनव्हेज", "name": "अंडा भुर्जी - Egg Bhurji", "price": "RS 60", "desc": "Egg Bhurji", "tags": ["Non-Veg"], "img": "img/egg_bhurji.jpeg"},
+            {"id": 88, "cat": "नॉनव्हेज", "name": "अंडा करी - Egg Curry", "price": "RS 100", "desc": "Egg Curry", "tags": ["Non-Veg"], "img": "img/egg_curry.jpeg"},
 
+            {"id": 121, "cat": "व्हेज थाळी", "name": "राईस प्लेट - Rice Plate", "price": "RS 120", "desc": "Rice Plate", "tags": ["Veg"], "img": "img/rice_plate1.jpeg"},
+            {"id": 122, "cat": "व्हेज थाळी", "name": "राईस प्लेट फुल - Rice Plate Full", "price": "RS 150", "desc": "Full Rice Plate", "tags": ["Veg"], "img": "img/rice_plate_full.jpeg"},
+            {"id": 123, "cat": "व्हेज थाळी", "name": "दालबटी - Dal Bati", "price": "RS 150", "desc": "Dal Bati", "tags": ["Veg"], "img": "img/dal_bati.jpeg"},
+            {"id": 124, "cat": "व्हेज थाळी", "name": "पूरीभाजी - Puri Bhaji", "price": "RS 50", "desc": "Puri Bhaji", "tags": ["Veg"], "img": "img/puri_bhaji.jpeg"},
+            {"id": 125, "cat": "व्हेज थाळी", "name": "छोले भटुरे - Chole Bhature", "price": "RS 70", "desc": "Chole Bhature", "tags": ["Veg"], "img": "img/chole_bhature.jpeg"}
+        ];
 
-{"id": 43, "cat": "स्पेशल डिश", "name": "पनीर मसाला - Paneer Masala", "price": "RS 150", "desc": "Paneer Masala", "tags": ["Veg"], "img": "img/paneer_masala.jpeg"},
-{"id": 44, "cat": "स्पेशल डिश", "name": "पनीर टिक्का मसाला - Paneer Tikka Masala", "price": "RS 170", "desc": "Paneer Tikka Masala", "tags": ["Veg"], "img": "img/paneer_tikka_masala.jpeg"},
-{"id": 45, "cat": "स्पेशल डिश", "name": "पनीर कढई - Paneer Kadai", "price": "RS 170", "desc": "Paneer Kadai", "tags": ["Veg"], "img": "img/paneer_kadai.jpeg"},
-{"id": 46, "cat": "स्पेशल डिश", "name": "व्हेज अंगारा - Veg Angara", "price": "RS 200", "desc": "Veg Angara", "tags": ["Veg"], "img": "img/veg_angara.jpeg"},
-{"id": 47, "cat": "स्पेशल डिश", "name": "पनीर अंगारा - Paneer Angara", "price": "RS 250", "desc": "Paneer Angara", "tags": ["Veg"], "img": "img/paneer_angara.jpeg"},
-{"id": 48, "cat": "स्पेशल डिश", "name": "पनीर भुर्जी - Paneer Bhurji", "price": "RS 200", "desc": "Paneer Bhurji", "tags": ["Veg"], "img": "img/paneer_bhurji.jpeg"},
-{"id": 49, "cat": "स्पेशल डिश", "name": "व्हेज कढई - Veg Kadai", "price": "RS 180", "desc": "Veg Kadai", "tags": ["Veg"], "img": "img/veg_kadai.jpeg"},
-{"id": 50, "cat": "स्पेशल डिश", "name": "व्हेज कोल्हापुरी - Veg Kolhapuri", "price": "RS 150", "desc": "Veg Kolhapuri", "tags": ["Veg"], "img": "img/veg_kolhapuri.jpeg"},
-{"id": 51, "cat": "स्पेशल डिश", "name": "शाही पनीर - Shahi Paneer", "price": "RS 160", "desc": "Shahi Paneer", "tags": ["Veg"], "img": "img/shahi_paneer.jpeg"},
-{"id": 52, "cat": "स्पेशल डिश", "name": "पनीर बटर मसाला - Paneer Butter Masala", "price": "RS 160", "desc": "Paneer Butter Masala", "tags": ["Veg"], "img": "img/paneer_butter_masala.jpeg"},
-{"id": 53, "cat": "स्पेशल डिश", "name": "व्हेज मराठा - Veg Maratha", "price": "RS 160", "desc": "Veg Maratha", "tags": ["Veg"], "img": "img/veg_maratha.jpeg"},
-{"id": 54, "cat": "स्पेशल डिश", "name": "पालक पनीर - Palak Paneer", "price": "RS 160", "desc": "Palak Paneer", "tags": ["Veg"], "img": "img/palak_paneer_special.jpeg"},
-{"id": 55, "cat": "स्पेशल डिश", "name": "पालक पनीर तडका - Palak Paneer Tadka", "price": "RS 170", "desc": "Palak Paneer Tadka", "tags": ["Veg"], "img": "img/palak_paneer_tadka.jpeg"},
-{"id": 56, "cat": "स्पेशल डिश", "name": "काजू पनीर मिक्स - Kaju Paneer Mix", "price": "RS 170", "desc": "Kaju Paneer Mix", "tags": ["Veg"], "img": "img/kaju_paneer_mix.jpeg"},
-{"id": 57, "cat": "स्पेशल डिश", "name": "काजू करी - Kaju Curry", "price": "RS 170", "desc": "Kaju Curry", "tags": ["Veg"], "img": "img/kaju_curry.jpeg"},
-{"id": 58, "cat": "स्पेशल डिश", "name": "काजू मसाला - Kaju Masala", "price": "RS 180", "desc": "Kaju Masala", "tags": ["Veg"], "img": "img/kaju_masala.jpeg"},
-{"id": 59, "cat": "स्पेशल डिश", "name": "व्हेज कोफ्ता - Veg Kofta", "price": "RS 170", "desc": "Veg Kofta", "tags": ["Veg"], "img": "img/veg_kofta.jpeg"},
-{"id": 60, "cat": "स्पेशल डिश", "name": "मलाई कोफ्ता - Malai Kofta", "price": "RS 190", "desc": "Malai Kofta", "tags": ["Veg"], "img": "img/malai_kofta.jpeg"},
-{"id": 61, "cat": "स्पेशल डिश", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 150", "desc": "Mix Veg", "tags": ["Veg"], "img": "img/mix_veg_special.jpeg"},
-{"id": 62, "cat": "स्पेशल डिश", "name": "मिक्स व्हेज मसाला - Mix Veg Masala", "price": "RS 160", "desc": "Mix Veg Masala", "tags": ["Veg"], "img": "img/mix_veg_masala.jpeg"},
-// {"id": 53, "cat": "स्पेशल डिश", "name": "व्हेज मराठा - Veg Maratha", "price": "RS 160", "desc": "Veg Maratha", "tags": ["Veg"], "img": "img/veg_maratha.jpeg"},
-// {"id": 54, "cat": "स्पेशल डिश", "name": "पालक पनीर - Palak Paneer", "price": "RS 160", "desc": "Palak Paneer", "tags": ["Veg"], "img": "img/palak_paneer_special.jpeg"},
-// {"id": 55, "cat": "स्पेशल डिश", "name": "पालक पनीर तडका - Palak Paneer Tadka", "price": "RS 170", "desc": "Palak Paneer Tadka", "tags": ["Veg"], "img": "img/palak_paneer_tadka.jpeg"},
-// {"id": 56, "cat": "स्पेशल डिश", "name": "काजू पनीर मिक्स - Kaju Paneer Mix", "price": "RS 170", "desc": "Kaju Paneer Mix", "tags": ["Veg"], "img": "img/kaju_paneer_mix.jpeg"},
-// {"id": 57, "cat": "स्पेशल डिश", "name": "काजू करी - Kaju Curry", "price": "RS 170", "desc": "Kaju Curry", "tags": ["Veg"], "img": "img/kaju_curry.jpeg"},
-// {"id": 58, "cat": "स्पेशल डिश", "name": "काजू मसाला - Kaju Masala", "price": "RS 180", "desc": "Kaju Masala", "tags": ["Veg"], "img": "img/kaju_masala.jpeg"},
-// {"id": 59, "cat": "स्पेशल डिश", "name": "व्हेज कोफ्ता - Veg Kofta", "price": "RS 170", "desc": "Veg Kofta", "tags": ["Veg"], "img": "img/veg_kofta.jpeg"},
-// {"id": 60, "cat": "स्पेशल डिश", "name": "मलाई कोफ्ता - Malai Kofta", "price": "RS 190", "desc": "Malai Kofta", "tags": ["Veg"], "img": "img/malai_kofta.jpeg"},
-// {"id": 61, "cat": "स्पेशल डिश", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 150", "desc": "Mix Veg", "tags": ["Veg"], "img": "img/mix_veg_special.jpeg"},
-// {"id": 62, "cat": "स्पेशल डिश", "name": "मिक्स व्हेज मसाला - Mix Veg Masala", "price": "RS 160", "desc": "Mix Veg Masala", "tags": ["Veg"], "img": "img/mix_veg_masala.jpeg"},
-{"id": 89, "cat": "स्पेशल डिश", "name": "मलाई मेथी - Malai Methi", "price": "RS 120", "desc": "Malai Methi", "tags": ["Veg"], "img": "img/malai_methi.jpeg"},
-{"id": 90, "cat": "स्पेशल डिश", "name": "सिमला मसाला - Simla Masala", "price": "RS 130", "desc": "Capsicum Masala", "tags": ["Veg"], "img": "img/simla_masala.jpeg"},
-{"id": 91, "cat": "स्पेशल डिश", "name": "सिमला करी - Simla Curry", "price": "RS 140", "desc": "Capsicum Curry", "tags": ["Veg"], "img": "img/simla_curry.jpeg"},
-{"id": 92, "cat": "स्पेशल डिश", "name": "शेवभाजी दुधात - Shevbhaji Dudhat", "price": "RS 130", "desc": "Shevbhaji in Milk", "tags": ["Veg"], "img": "img/shevbhaji_dudhat.jpeg"},
-{"id": 93, "cat": "स्पेशल डिश", "name": "जिरा आलू - Jeera Alu", "price": "RS 120", "desc": "Jeera Potato", "tags": ["Veg"], "img": "img/jeera_alu.jpeg"},
-{"id": 94, "cat": "स्पेशल डिश", "name": "दाल मेथी - Dal Methi", "price": "RS 120", "desc": "Dal with Methi", "tags": ["Veg"], "img": "img/dal_methi.jpeg"},
-{"id": 95, "cat": "स्पेशल डिश", "name": "पनीर कोफ्ता - Paneer Kofta", "price": "RS 150", "desc": "Paneer Kofta", "tags": ["Veg"], "img": "img/paneer_kofta.jpeg"},
-{"id": 96, "cat": "स्पेशल डिश", "name": "व्हेज कोफ्ता - Veg Kofta", "price": "RS 160", "desc": "Vegetable Kofta", "tags": ["Veg"], "img": "img/veg_kofta_special.jpeg"},
-{"id": 97, "cat": "स्पेशल डिश", "name": "व्हेज कोल्हापुरी - Veg Kolhapuri", "price": "RS 160", "desc": "Veg Kolhapuri", "tags": ["Veg"], "img": "img/veg_kolhapuri_11.jpeg"},
-
-{"id": 98, "cat": "इंडियन डिश", "name": "शेवभाजी - Shevbhaji", "price": "RS 100", "desc": "Shevbhaji", "tags": ["Veg"], "img": "img/shevbhaji.jpeg"},
-{"id": 99, "cat": "इंडियन डिश", "name": "बेसन तडका - Besan Tadka", "price": "RS 120", "desc": "Besan Tadka", "tags": ["Veg"], "img": "img/besan_tadka.jpeg"},
-{"id": 100, "cat": "इंडियन डिश", "name": "साधे बेसन - Sadhe Besan", "price": "RS 100", "desc": "Plain Besan", "tags": ["Veg"], "img": "img/sadhe_besan.jpeg"},
-{"id": 101, "cat": "इंडियन डिश", "name": "गोबी मसाला - Gobi Masala", "price": "RS 110", "desc": "Cauliflower Masala", "tags": ["Veg"], "img": "img/gobi_masala.jpeg"},
-{"id": 102, "cat": "इंडियन डिश", "name": "दाल फ्राय - Dal Fry", "price": "RS 100", "desc": "Dal Fry", "tags": ["Veg"], "img": "img/dal_fry.jpeg"},
-{"id": 103, "cat": "इंडियन डिश", "name": "दाल तडका - Dal Tadka", "price": "RS 120", "desc": "Dal Tadka", "tags": ["Veg"], "img": "img/dal_tadka.jpeg"},
-{"id": 104, "cat": "इंडियन डिश", "name": "जिरा दाल - Jeera Dal", "price": "RS 120", "desc": "Jeera Dal", "tags": ["Veg"], "img": "img/jeera_dal.jpeg"},
-{"id": 105, "cat": "इंडियन डिश", "name": "चना मसाला - Chana Masala", "price": "RS 120", "desc": "Chana Masala", "tags": ["Veg"], "img": "img/chana_masala.jpeg"},
-{"id": 106, "cat": "इंडियन डिश", "name": "मटकी मसाला - Matki Masala", "price": "RS 120", "desc": "Matki Masala", "tags": ["Veg"], "img": "img/matki_masala.jpeg"},
-{"id": 107, "cat": "इंडियन डिश", "name": "भेंडी मसाला - Bhendi Masala", "price": "RS 120", "desc": "Okra Masala", "tags": ["Veg"], "img": "img/bhendi_masala.jpeg"},
-{"id": 108, "cat": "इंडियन डिश", "name": "भेंडी फ्राय - Bhendi Fry", "price": "RS 100", "desc": "Okra Fry", "tags": ["Veg"], "img": "img/bhendi_fry.jpeg"},
-{"id": 109, "cat": "इंडियन डिश", "name": "सोयाबीन मसाला - Soyabean Masala", "price": "RS 120", "desc": "Soyabean Masala", "tags": ["Veg"], "img": "img/soyabean_masala.jpeg"},
-{"id": 110, "cat": "इंडियन डिश", "name": "टमॅटो चटणी - Tomato Chatni", "price": "RS 120", "desc": "Tomato Chutney", "tags": ["Veg"], "img": "img/tomato_chatni.jpeg"},
-{"id": 111, "cat": "इंडियन डिश", "name": "शेंगदाणा पीस - Shengdana Piece", "price": "RS 120", "desc": "Peanut Dish", "tags": ["Veg"], "img": "img/shengdana_piece.jpeg"},
-{"id": 112, "cat": "इंडियन डिश", "name": "आलूमटार - Alu Matar", "price": "RS 120", "desc": "Potato Peas Masala", "tags": ["Veg"], "img": "img/alu_matar.jpeg"},
-{"id": 113, "cat": "इंडियन डिश", "name": "मेथी मसाला - Methi Masala", "price": "RS 130", "desc": "Methi Masala", "tags": ["Veg"], "img": "img/methi_masala.jpeg"},
-{"id": 114, "cat": "इंडियन डिश", "name": "लसुनी मेथी - Lasuni Methi", "price": "RS 140", "desc": "Garlic Methi", "tags": ["Veg"], "img": "img/lasuni_methi.jpeg"},
-{"id": 115, "cat": "इंडियन डिश", "name": "आलू गोबी मसाला - Alu Gobi Masala", "price": "RS 130", "desc": "Potato Cauliflower Masala", "tags": ["Veg"], "img": "img/alu_gobi_masala.jpeg"},
-{"id": 116, "cat": "इंडियन डिश", "name": "मिक्स व्हेज - Mix Veg", "price": "RS 150", "desc": "Mixed Vegetables", "tags": ["Veg"], "img": "img/mix_veg_indian.jpeg"},
-{"id": 117, "cat": "इंडियन डिश", "name": "शेवगा भाजी - Shevga Bhaji", "price": "RS 140", "desc": "Drumstick Curry", "tags": ["Veg"], "img": "img/shevga_bhaji.jpeg"},
-{"id": 118, "cat": "इंडियन डिश", "name": "बैगण मसाला - Baigan Masala", "price": "RS 120", "desc": "Eggplant Masala", "tags": ["Veg"], "img": "img/baigan_masala.jpeg"},
-{"id": 119, "cat": "इंडियन डिश", "name": "बैगण भरता - Baigan Bharta", "price": "RS 100", "desc": "Roasted Eggplant Mash", "tags": ["Veg"], "img": "img/baigan_bharta.jpeg"},
-{"id": 120, "cat": "इंडियन डिश", "name": "शेवगा करी - Shevga Curry", "price": "RS 120", "desc": "Drumstick Curry", "tags": ["Veg"], "img": "img/shevga_curry.jpeg"},
-
-
-
-{"id": 72, "cat": "नॉनव्हेज", "name": "मटन हंडी फुल - Mutton Handi Full", "price": "RS 900", "desc": "Mutton Handi Full", "tags": ["Non-Veg"], "img": "img/mutton_handi_full.jpeg"},
-{"id": 73, "cat": "नॉनव्हेज", "name": "मटन हंडी हाफ - Mutton Handi Half", "price": "RS 450", "desc": "Mutton Handi Half", "tags": ["Non-Veg"], "img": "img/mutton_handi_full.jpeg"},
-{"id": 74, "cat": "नॉनव्हेज", "name": "चिकन हंडी फुल - Chicken Handi Full", "price": "RS 700", "desc": "Chicken Handi Full", "tags": ["Non-Veg"], "img": "img/chicken_handi_full.jpeg"},
-{"id": 75, "cat": "नॉनव्हेज", "name": "चिकन हंडी हाफ - Chicken Handi Half", "price": "RS 350", "desc": "Chicken Handi Half", "tags": ["Non-Veg"], "img": "img/chicken_handi_full.jpeg"},
-{"id": 76, "cat": "नॉनव्हेज", "name": "चिकन मसाला - Chicken Masala", "price": "RS 150", "desc": "Chicken Masala", "tags": ["Non-Veg"], "img": "img/chicken_masala.jpeg"},
-{"id": 77, "cat": "नॉनव्हेज", "name": "चिकन फ्राय - Chicken Fry", "price": "RS 140", "desc": "Chicken Fry", "tags": ["Non-Veg"], "img": "img/chicken_fry.jpeg"},
-{"id": 78, "cat": "नॉनव्हेज", "name": "चिकन रोस्ट - Chicken Roast", "price": "RS 140", "desc": "Chicken Roast", "tags": ["Non-Veg"], "img": "img/chicken_roast.jpeg"},
-{"id": 79, "cat": "नॉनव्हेज", "name": "चिकन सूप - Chicken Soup", "price": "RS 180", "desc": "Chicken Soup", "tags": ["Non-Veg"], "img": "img/chicken_soup.jpeg"},
-{"id": 80, "cat": "नॉनव्हेज", "name": "मटन सूप - Mutton Soup", "price": "RS 200", "desc": "Mutton Soup", "tags": ["Non-Veg"], "img": "img/mutton_soup.jpeg"},
-{"id": 81, "cat": "नॉनव्हेज", "name": "मटन फ्राय - Mutton Fry", "price": "RS 220", "desc": "Mutton Fry", "tags": ["Non-Veg"], "img": "img/mutton_fry.jpeg"},
-{"id": 82, "cat": "नॉनव्हेज", "name": "मटन रोस्ट - Mutton Roast", "price": "RS 180", "desc": "Mutton Roast", "tags": ["Non-Veg"], "img": "img/mutton_roast.jpeg"},
-{"id": 83, "cat": "नॉनव्हेज", "name": "मटन मसाला - Mutton Masala", "price": "RS 200", "desc": "Mutton Masala", "tags": ["Non-Veg"], "img": "img/mutton_masala.jpeg"},
-{"id": 84, "cat": "नॉनव्हेज", "name": "मच्छी मसाला - Fish Masala", "price": "RS 140", "desc": "Fish Masala", "tags": ["Non-Veg"], "img": "img/fish_masala.jpeg"},
-{"id": 85, "cat": "नॉनव्हेज", "name": "मच्छी रोस्ट - Fish Roast", "price": "RS 130", "desc": "Fish Roast", "tags": ["Non-Veg"], "img": "img/fish_roast.jpeg"},
-{"id": 86, "cat": "नॉनव्हेज", "name": "अंडा आमलेट - Egg Omelette", "price": "RS 70", "desc": "Egg Omelette", "tags": ["Non-Veg"], "img": "img/egg_omelette.jpeg"},
-{"id": 87, "cat": "नॉनव्हेज", "name": "अंडा भुर्जी - Egg Bhurji", "price": "RS 60", "desc": "Egg Bhurji", "tags": ["Non-Veg"], "img": "img/egg_bhurji.jpeg"},
-{"id": 88, "cat": "नॉनव्हेज", "name": "अंडा करी - Egg Curry", "price": "RS 100", "desc": "Egg Curry", "tags": ["Non-Veg"], "img": "img/egg_curry.jpeg"},
-
-{"id": 121, "cat": "व्हेज थाळी", "name": "राईस प्लेट - Rice Plate", "price": "RS 120", "desc": "Rice Plate", "tags": ["Veg"], "img": "img/rice_plate1.jpeg"},
-{"id": 122, "cat": "व्हेज थाळी", "name": "राईस प्लेट फुल - Rice Plate Full", "price": "RS 150", "desc": "Full Rice Plate", "tags": ["Veg"], "img": "img/rice_plate_full.jpeg"},
-{"id": 123, "cat": "व्हेज थाळी", "name": "दालबटी - Dal Bati", "price": "RS 150", "desc": "Dal Bati", "tags": ["Veg"], "img": "img/dal_bati.jpeg"},
-{"id": 124, "cat": "व्हेज थाळी", "name": "पूरीभाजी - Puri Bhaji", "price": "RS 50", "desc": "Puri Bhaji", "tags": ["Veg"], "img": "img/puri_bhaji.jpeg"},
-{"id": 125, "cat": "व्हेज थाळी", "name": "छोले भटुरे - Chole Bhature", "price": "RS 70", "desc": "Chole Bhature", "tags": ["Veg"], "img": "img/chole_bhature.jpeg"},
-
-
-
-
-];
         // Cart functionality
         let cart = [];
         let deliveryType = 'restaurant'; // Default to restaurant
@@ -1477,6 +1436,14 @@
         const whatsappOrder = document.getElementById('whatsappOrder');
         const addAnotherItem = document.getElementById('addAnotherItem');
         const customerDetailsSummary = document.getElementById('customerDetailsSummary');
+
+        // Helper function to extract price from string
+        function extractPrice(priceString) {
+            // Handle price strings like "RS 90/60" or "RS 150"
+            // We'll take the first price before any slash
+            const match = priceString.match(/(\d+)/);
+            return match ? parseInt(match[0]) : 0;
+        }
 
         // Delivery option selection
         function selectDeliveryOption(type) {
@@ -1505,18 +1472,18 @@
                 if (tableNumber) {
                     showSummary = true;
                     summaryHTML = `
-            <div class="summary-title">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 12v12M15 12v12M5 12l-2 9h18l-2-9M5 12V8c0-1.105.895-2 2-2h10c1.105 0 2 .895 2 2v4"/>
-                <circle cx="12" cy="6" r="2"/>
-              </svg>
-              Restaurant Order
-            </div>
-            <div class="summary-details">
-              <div><strong>Type:</strong> Dine-in</div>
-              <div><strong>Table Number:</strong> ${tableNumber}</div>
-            </div>
-          `;
+                        <div class="summary-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12v12M15 12v12M5 12l-2 9h18l-2-9M5 12V8c0-1.105.895-2 2-2h10c1.105 0 2 .895 2 2v4"/>
+                                <circle cx="12" cy="6" r="2"/>
+                            </svg>
+                            Restaurant Order
+                        </div>
+                        <div class="summary-details">
+                            <div><strong>Type:</strong> Dine-in</div>
+                            <div><strong>Table Number:</strong> ${tableNumber}</div>
+                        </div>
+                    `;
                 }
             } else {
                 const name = document.getElementById('customerName').value.trim();
@@ -1526,19 +1493,19 @@
                 if (name || mobile || address) {
                     showSummary = true;
                     summaryHTML = `
-            <div class="summary-title">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
-              </svg>
-              Delivery Order
-            </div>
-            <div class="summary-details">
-              <div><strong>Type:</strong> Home Delivery</div>
-              ${name ? `<div><strong>Name:</strong> ${name}</div>` : ''}
-              ${mobile ? `<div><strong>Mobile:</strong> ${mobile}</div>` : ''}
-              ${address ? `<div><strong>Address:</strong> ${address}</div>` : ''}
-            </div>
-          `;
+                        <div class="summary-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            Delivery Order
+                        </div>
+                        <div class="summary-details">
+                            <div><strong>Type:</strong> Home Delivery</div>
+                            ${name ? `<div><strong>Name:</strong> ${name}</div>` : ''}
+                            ${mobile ? `<div><strong>Mobile:</strong> ${mobile}</div>` : ''}
+                            ${address ? `<div><strong>Address:</strong> ${address}</div>` : ''}
+                        </div>
+                    `;
                 }
             }
 
@@ -1624,6 +1591,7 @@
             if (cart.length === 0) {
                 cartEmpty.style.display = 'block';
                 cartItems.innerHTML = '';
+                cartTotal.textContent = '₹0';
             } else {
                 cartEmpty.style.display = 'none';
 
@@ -1631,24 +1599,24 @@
                 let totalAmount = 0;
 
                 cart.forEach(item => {
-                    const price = parseInt(item.price.replace('₹', ''));
+                    const price = extractPrice(item.price);
                     const itemTotal = price * item.quantity;
                     totalAmount += itemTotal;
 
                     itemsHTML += `
-            <div class="cart-item">
-              <div class="item-info">
-                <div class="item-name">${item.name}</div>
-                <div class="item-price">${item.price}</div>
-              </div>
-              <div class="item-quantity">
-                <button class="quantity-btn" onclick="updateQuantity(${item.id}, -1)">-</button>
-                <span class="quantity">${item.quantity}</span>
-                <button class="quantity-btn" onclick="updateQuantity(${item.id}, 1)">+</button>
-                <button class="remove-item" onclick="removeFromCart(${item.id})">×</button>
-              </div>
-            </div>
-          `;
+                        <div class="cart-item">
+                            <div class="item-info">
+                                <div class="item-name">${item.name}</div>
+                                <div class="item-price">${item.price}</div>
+                            </div>
+                            <div class="item-quantity">
+                                <button class="quantity-btn" onclick="updateQuantity(${item.id}, -1)">-</button>
+                                <span class="quantity">${item.quantity}</span>
+                                <button class="quantity-btn" onclick="updateQuantity(${item.id}, 1)">+</button>
+                                <button class="remove-item" onclick="removeFromCart(${item.id})">×</button>
+                            </div>
+                        </div>
+                    `;
                 });
 
                 cartItems.innerHTML = itemsHTML;
@@ -1738,7 +1706,7 @@
             });
 
             const totalAmount = cart.reduce((sum, item) => {
-                const price = parseInt(item.price.replace('₹', ''));
+                const price = extractPrice(item.price);
                 return sum + (price * item.quantity);
             }, 0);
 
@@ -1768,25 +1736,25 @@
             }
 
             menuGrid.innerHTML = items.map(item => `
-        <div class="card" data-cat="${item.cat}">
-          <div class="card-header">
-            <div class="thumb">
-              <img src="${item.img}" alt="${item.name}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE4MCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiBmaWxsPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDMpIi8+CjxwYXRoIGQ9Ik03MCA4MEgxMTBNODAgNzBWOTBNNjUgOTVIMTA1TTk1IDY1VjEwNU02NSA2NVYxMDVNNzUgNzVIOThNNzUgODVIOThNNzUgOTVIOThNNzUgMTA1SDk4TTY1IDc1SDcyTTY1IDg1SDcyTTY1IDk1SDcyTTY1IDEwNUg3Mk0xMDggNzVIMTE1TTEwOCA4NUgxMTVNMTA4IDk1SDExNU0xMDggMTA1SDExNSIgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSkiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+'">
-            </div>
-            <div class="card-info">
-              <h3 class="dish">${item.name}</h3>
-              <p class="desc">${item.desc}</p>
-              <div class="tags">
-                ${item.tags.map(tag => `<span class="pill">${tag}</span>`).join('')}
-              </div>
-            </div>
-          </div>
-          <div class="card-footer">
-            <div class="price">${item.price}</div>
-            <button class="btn-primary" onclick="addToCart(${JSON.stringify(item).replace(/"/g, '&quot;')}, this)">Add to Cart</button>
-          </div>
-        </div>
-      `).join('');
+                <div class="card" data-cat="${item.cat}">
+                    <div class="card-header">
+                        <div class="thumb">
+                            <img src="${item.img}" alt="${item.name}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE4MCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiBmaWxsPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDMpIi8+CjxwYXRoIGQ9Ik03MCA4MEgxMTBNODAgNzBWOTBNNjUgOTVIMTA1TTk1IDY1VjEwNU02NSA2NVYxMDVNNzUgNzVIOThNNzUgODVIOThNNzUgOTVIOThNNzUgMTA1SDk4TTY1IDc1SDcyTTY1IDg1SDcyTTY1IDk1SDcyTTY1IDEwNUg3Mk0xMDggNzVIMTE1TTEwOCA4NUgxMTVNMTA4IDk1SDExNU0xMDggMTA1SDExNSIgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSkiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+'">
+                        </div>
+                        <div class="card-info">
+                            <h3 class="dish">${item.name}</h3>
+                            <p class="desc">${item.desc}</p>
+                            <div class="tags">
+                                ${item.tags.map(tag => `<span class="pill">${tag}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="price">${item.price}</div>
+                        <button class="btn-primary" onclick="addToCart(${JSON.stringify(item).replace(/"/g, '&quot;')}, this)">Add to Cart</button>
+                    </div>
+                </div>
+            `).join('');
         }
 
         // Filter menu items by category
@@ -1843,8 +1811,7 @@
         window.removeFromCart = removeFromCart;
         window.updateQuantity = updateQuantity;
         window.selectDeliveryOption = selectDeliveryOption;
+        window.extractPrice = extractPrice;
     </script>
 </body>
-
 </html>
-
